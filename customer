@@ -1,0 +1,17 @@
+
+from user import *
+
+class Customer(User): #Class to call customer function 
+
+    def __init__(self):
+        self.customer_type = None
+        self.payment_type = None
+
+    def set_customer_type(self,customer_type): # sets the customer type student or not
+        pass
+    def get_customer_type(self):
+        pass
+    def set_payment_type(self,payment_type):#decides the payment type to set method of payment
+        pass
+    def get_payment_type(self):
+        pass
